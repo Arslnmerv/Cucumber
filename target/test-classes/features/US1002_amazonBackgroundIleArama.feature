@@ -17,7 +17,6 @@ Feature: US1002 amazon background ile arama
     And sayfayi kapatir
 
 
-
   Scenario: TC03 amazon ipad arama
     And ipad icin arama yapar
     Then sonucun ipad icerdigini test eder
