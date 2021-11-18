@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@editor"  ,
+        tags = "@gmibank"  ,
 
         dryRun =false
         // dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir
