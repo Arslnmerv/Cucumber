@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
+import org.junit.Assert;
 import pages.US3001_Page;
 
 import static org.junit.Assert.*;
@@ -40,5 +41,20 @@ public class US3001_StepDefinitions {
     @Then("gmibank password strength orange gorunur")
     public void gmibankPasswordStrengthOrangeGorunur() {
         assertTrue(us3001_page.orange.isDisplayed());
+    }
+    @Then("gmibank password strength yellow gorunur")
+    public void gmibankPasswordStrengthYellowGorunur() {
+        Assert.assertTrue(us3001_page.yellow.isDisplayed());
+    }
+
+
+    @Then("gmibank password strength lightgreen gorunur")
+    public void gmibankPasswordStrengthLightgreenGorunur() {
+        Assert.assertTrue(us3001_page.lightgreen.isDisplayed());
+    }
+
+    @Then("gmibank password strength green gorunur")
+    public void gmibankPasswordStrengthGreenGorunur() {
+        Assert.assertTrue(us3001_page.green.isDisplayed());
     }
 }
