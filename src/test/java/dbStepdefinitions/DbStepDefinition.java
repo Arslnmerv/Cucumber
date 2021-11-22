@@ -51,20 +51,20 @@ public class DbStepDefinition {
         // while loop u calistirirsak hic bir sey yazdirmaz
         // while loop calistirmadan once ilk objeye gitmemiz gerekir
 
-        /*
+
         resultSet.first(); // birinci objeye gittim
         while (resultSet.next()){ // usteki satir birinci objeye goturdu ama resultSet.next() sonraki objeye gecirdi
                                     // dolayisiyla liste 2.fiyattan basladi
             System.out.println(resultSet.getObject(field).toString());
         }
-        */
 
-        /* mehmet hoca da sona kadar gitmiyor, onun icin bu kismi yoruma aldik
+
+        //mehmet hoca da sona kadar gitmiyor, onun icin bu kismi yoruma aldik
         resultSet.absolute(0);
         while (resultSet.next()){
             System.out.println(resultSet.getObject(field).toString());
         }
-        */
+
         // varsa ilk 100 fiyati double olarak bir liste seklinde kaydedelim
 
         int sayac=1;
